@@ -23,7 +23,7 @@ const (
 	openaiOrganization   = "github-copilot"
 	openaiIntent         = "conversation-panel"
 	defaultModel         = "gpt-4o"
-	defaultTemperature   = 0.1
+	defaultTemperature   = 0.5
 	defaultSystemRole    = "system"
 	userRole             = "user"
 	assistantRole        = "assistant"
