@@ -1,3 +1,10 @@
+## [1.2.1](https://github.com/mr687/lazycopilot/compare/v1.2.0...v1.2.1) (2026-04-04)
+
+
+### Bug Fixes
+
+* **cli:** 🐛 re-enable commit style prompt in commit.go 🎉 ([a41b857](https://github.com/mr687/lazycopilot/commit/a41b85731f931153aac807643914957bab10c25d))
+
 # [1.2.0](https://github.com/mr687/lazycopilot/compare/v1.1.0...v1.2.0) (2026-04-04)
 
 
