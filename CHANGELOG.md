@@ -1,3 +1,11 @@
+# [1.2.0](https://github.com/mr687/lazycopilot/compare/v1.1.0...v1.2.0) (2026-04-04)
+
+
+### Features
+
+* **cli,config:** refine commit prompts for clarity ([6bda1e6](https://github.com/mr687/lazycopilot/commit/6bda1e64a9ccc3dd82f9bf02d846129bf5b90a07))
+* **config:** 🎉 Add custom tone to commit prompts ([c064b20](https://github.com/mr687/lazycopilot/commit/c064b20f8bb7e85b00ba1d8f9997e4cc327d4860))
+
 # [1.1.0](https://github.com/mr687/lazycopilot/compare/v1.0.0...v1.1.0) (2025-02-13)
 
 
