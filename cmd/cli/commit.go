@@ -204,9 +204,11 @@ func commitRunner(cmd *cobra.Command, args []string) {
 		commitPrompt += "\n\nGenerate only the commit title."
 	}
 
-	if stylePrompt := commit.GetStylePrompt(commit.Style(style)); stylePrompt != "" {
-		commitPrompt += stylePrompt
-	}
+	// if stylePrompt := commit.GetStylePrompt(commit.Style(style)); stylePrompt != "" {
+	// 	commitPrompt += stylePrompt
+	// }
+
+	fmt.Println(commitPrompt)
 
 	copilot := copilot.NewCopilot()
 	content, err := copilot.Ask(ctx, commitPrompt, nil)

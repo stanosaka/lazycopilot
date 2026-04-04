@@ -16,7 +16,7 @@ var COMMIT_PROMPT = strings.ReplaceAll(
 
 var COMMIT_PROMPT_WITH_CUSTOM_TONE = wrapBlockCode("diff", "{{diff}}") + "\n\n" + `
 Write short commit messages:
-- Follow the conventional commit format
+- Important: Follow the conventional commit format
 - The first line should be a short summary of the changes
 - Remember to mention the files that were changed, and what was changed
 - Explain the 'why' behind changes
