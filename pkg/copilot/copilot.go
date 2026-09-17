@@ -22,7 +22,7 @@ const (
 	copilotIntegrationID = "vscode-chat"
 	openaiOrganization   = "github-copilot"
 	openaiIntent         = "conversation-panel"
-	defaultModel         = "gpt-4o"
+	defaultModel         = "gpt-5-mini"
 	defaultTemperature   = 0.5
 	defaultSystemRole    = "system"
 	userRole             = "user"
