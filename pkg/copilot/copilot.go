@@ -447,7 +447,7 @@ func (c *copilot) authenticate(ctx context.Context) error {
 			Method: http.MethodGet,
 			Url:    "https://api.github.com/copilot_internal/v2/token",
 			Headers: &utils.Headers{
-				authorizationHeader: "Bearer " + *c.githubToken,
+				authorizationHeader: "token " + *c.githubToken,
 				acceptHeader:        applicationJSON,
 			},
 		})
